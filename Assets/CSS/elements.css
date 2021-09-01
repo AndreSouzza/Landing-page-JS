@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    color: var(--primary-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 5.7rem;
+    text-transform: uppercase;
+}
+h2 {
+    font-size: 4.5rem;
+    text-transform: uppercase;
+    height: auto;
+}
+
+
+h3 {
+    font-size: 3.5rem;
+    text-transform: uppercase;
+}
+h4 {
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+h5 {
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin-bottom: 2.5rem;
+}
+
+table {
+    min-width: 360px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table caption {
+    font-style: italic;
+    font-size: 1.1rem;
+    text-align: left;
+    margin-bottom: 0.6rem;
+}
+
+table td, table th {
+    white-space: nowrap;
+    padding: 1rem;
+    text-align: left;
+    border: 0.1rem solid var(--gray-color);
+}
+
+tfoot td, table th {
+    background: var(--gray-color);
+}
